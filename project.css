@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    overflow-x: hidden;
+}
+body{
+  font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+/* Prevent horizontal scroll */
+
+
+.background img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.navbar ul a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    color: #000000;
+}
+.navbar ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    color: #000000;
+    
+    
+}
+.navbar button{
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    width: 8%;
+   border-radius: 5px;
+}
+.background{
+   background-image: url(./ladey\ doc.png);
+     width: 100%;
+  height: 88vh; /* full screen */
+  background-size: cover;
+  background-position: center;
+}
+
+.background  h1{
+    text-align: center;
+    padding-top: 12rem;
+    color: white;
+    font-size: 3.5rem;
+}
+.background p{
+    text-align: center;
+     color: white;
+    
+}
+.container{
+    padding-inline: 4rem;
+    padding-block: 4rem;
+    
+}
+.container p{
+    text-align: justify;
+    padding-top: 2rem;
+    color: #000000;
+}
+.container button{
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+   border-radius: 5px;
+   margin-top: 2rem;
+   width: 30%;
+}
+.container h1{
+    color: #000000;
+    padding-top: 3rem;
+}
+.container img{
+    height: 500px;
+}
+.middle{
+    text-align: center;
+}
+.middle3{
+    text-align: center;
+}
+.maaz{
+    padding-inline: 5rem;
+    padding-block: 5rem;
+    outline: none;
+
+}
+.maaz input{
+    margin-top: 3.5rem;
+    height: 3rem;
+    gap: 2rem;
+}
+.maaz h1{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer-container{
+    display: flex;
+     background-color: black;
+     color: white;
+    
+     justify-content: space-between;
+     padding-inline: 4rem;
+     padding-block: 2rem;
+     gap: 5rem;
+}
+.footer-about p{
+width: 100%;
+}
+.footer-links ul{
+    list-style: none;
+}
+
+
+
+
+
+
+.card{
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+ 
+
+    .maaz img{
+height: 500px;
+    }
+    .card2{
+        padding-top: 2rem;
+    }
+   .picture img{
+    margin-top: 2rem;
+   }
+   .card{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 800px;
+   }
+   .card5{
+    gap: 2rem;
+   }
+   .gray-cards{
+    gap: 2rem;
+   }
+   
+   
+
+.container button {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 30%;
+
+}
+.navbar ul li{
+    display: none;
+}
+.navbar button{
+    width: 100px;
+}
+.footer-container{
+    display: flex;
+     background-color: black;
+     color: white;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     padding-inline: 4rem;
+     padding-block: 2rem;
+     gap: 5rem;
+
+}
+}
+@media screen and (max-width:500px) {
+     .maaz img{
+height: 300px;
+    }
+    .card2{
+        padding-top: 2rem;
+    }
+   .picture img{
+    margin-top: 2rem;
+   }
+   .card{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 800px;
+   }
+   .card5{
+    gap: 2rem;
+   }
+   .gray-cards{
+    gap: 2rem;
+   }
+   
+   .footer-about p{
+    width: 100%;
+   }
+
+.container button {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 30%;
+
+}
+.navbar ul li{
+    display: none;
+}
+.navbar button{
+    width: 100px;
+}
+.footer-container{
+    display: flex;
+     background-color: black;
+     color: white;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     padding-inline: 4rem;
+     padding-block: 2rem;
+     gap: 5rem;
+}
+}

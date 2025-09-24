@@ -1,0 +1,85 @@
+.nav{
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    background-color: #ebeaea;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+.nav li{
+    background-color: #ebeaea;
+    border-radius: 10px;
+}
+
+.nav ul{
+    background-color: white;
+    color: black;
+}
+.nav-pills .nav-link.active {
+    
+}
+.nav-link {
+
+    olor: black;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    gap: 2rem;
+    margin-top: 3rem;
+    
+    
+}
+.inputs input{
+    text-align: center;
+    height: 3rem;
+    border-radius: 50px;
+    
+}
+.inputs input:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+.inputs ::placeholder{
+color: rgb(82, 80, 80);
+}
+.first{
+    align-items: center;
+    text-align: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    background-color: #ebeaea;
+    
+}
+.first p{
+    text-align: justify;
+}
+.second{
+     align-items: center;
+    text-align: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    background-color: #ebeaea;
+}
+.second p{
+    text-align: justify;
+}
+.third{
+    
+    padding: 7rem;
+     background-color: #ebeaea;
+}
+.first img{
+    width: 50%;
+    border-radius: 50px;
+    
+}
+.second img{
+    border-radius: 50px;
+    width: 50%;
+}
+    .body{
+        color: white;
+    }

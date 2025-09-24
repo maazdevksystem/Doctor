@@ -1,0 +1,90 @@
+
+
+
+
+
+
+.navbar{
+    color: white;
+    background-color: black;
+}
+.background{
+    background-image: url(./food\ background.png);
+    height: 90vh;
+    width: 100%;
+    
+}
+.background h1{
+   font-size: 6rem;
+   text-align: center;
+   padding-inline: 4rem;
+   padding-block: 9rem;
+   color: burlywood;
+}
+.above{
+    background-color: black;
+    color: burlywood;
+}
+.above img{
+        text-align: center;
+        width: 100%;
+        
+}
+.above button{
+    background-color: black;
+   color: burlywood;
+  border: solid burlywood ;
+   
+   border-radius: 10px;
+   height: 50px;
+}
+
+
+.chicekn{
+    background-color: black;
+     color: burlywood;
+}
+.accordion{
+    
+}
+
+
+
+.img img{
+    height: 300 px;
+    width: 100%;
+    
+}
+.main{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    .background h1{
+   font-size: 4rem;
+   text-align: center;
+   padding-inline: 4rem;
+   padding-block: 9rem;
+   color: burlywood;
+}
+}
